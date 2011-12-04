@@ -1,0 +1,343 @@
+/*
+Theme Name: Rua
+Theme URI: http://ruaarnold.com
+Description: Rua
+Version: 1.0
+*/
+
+body, label {
+    font-family: 'Francois One', Helvetica, Arial, sans-serif;
+    font-size: 14pt;
+    color: #000000;
+}
+
+label {
+    width: 200px;
+}
+
+input, textarea {
+    width: 300px;
+}
+
+.topbar {
+    background: transparent;
+}
+
+.input-contact {
+    margin-left: 220px;
+}
+
+.container {
+    height: 55px;
+}
+
+.active a {
+    background-repeat: repeat-x;
+    background-position: center center;
+}
+
+#my-fill {
+    background-image: url('images/black.png');
+    background-position: center top;
+    background-repeat: repeat-x;
+    height: 55px;
+    -webkit-box-shadow: 0;
+    box-shadow: 0;
+}
+
+#my-fill > .container > ul > li {
+    padding: 0;
+    padding-top: inherit;
+    padding-bottom: inherit;
+    padding-bottom: 0;
+    height: 42px;
+    margin-right: 0.3em;
+}
+
+#my-fill > .container > ul > li > a {
+    margin: 0px;
+    display: block;
+}
+
+
+.active {
+    background-color: #dd0505;
+    padding: 0;
+    border: 2px solid #dd0505;
+    background-image: url('images/header-gradient.png');
+    padding-top: 0px;
+}
+
+.red-name {
+    color: #dd0505;
+    font-size: 18pt;
+}
+
+.body-bigger {
+    font-size: 18pt;
+}
+
+section {
+    padding: 1.75em;
+    width: 49.474em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4em;
+}
+
+section p {
+    font-size: 14pt;
+}
+
+#home {
+    background-image: url('images/rua-and-trades.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 26.079em;
+}
+
+#about-container {
+    background-color: #f2f2f2;
+}
+
+#about {
+    background-image: url('images/glasses-background.png');
+    background-repeat: no-repeat;
+    background-position: 95% center;
+    padding-right: 15em;
+    width: 36.474em;
+}
+
+#about p {
+    font-size: 13pt;
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+#pitch {
+
+}
+
+.descriptive {
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: 'Cookie', Georgia, Serif;
+    font-size: 26pt;
+    color: #dd0505;
+    height: 9em;
+    margin-bottom: 1em;
+}
+
+#composition {
+    background-image: url('images/composition.png');
+    height: 8.818em;
+}
+
+#where-worked {
+    background-image: url('images/where.png');
+    height: 8.403em;
+}
+
+#where-designs {
+    background-image: url('images/where-designs.png');
+    height: 12.682em;
+}
+
+#graph {
+    background-image: url('images/graph.png');
+    height: 9.909em;
+}
+
+#resume {
+    font-size: 14pt;
+}
+
+#resume h1 {
+    font-family: 'Cookie', Georgia, Serif;
+    font-size: 26pt;
+    color: #dd0505;
+    font-weight: normal;
+}
+
+#resume h2 {
+    font-size: 16pt;
+    font-weight: normal;
+    color: #000000;
+}
+
+#resume ul {
+    list-style: none;
+    color: #36424a;
+    font-size: 12pt;
+    margin-top: 0.4em;
+}
+
+li {
+    color: #36424a;
+}
+
+#resume li {
+    line-height: 1.2em;
+}
+
+.resume-part {
+    margin-bottom: 2em;
+}
+
+#qualifications {
+    font-size: 14pt;
+}
+
+.resume-sub {
+    font-size: 12pt;
+    margin-bottom: 1em;
+    color: #36424a;
+}
+
+#contact-container {
+    background-color: #f2f2f2;
+    padding-top: 12em;
+    padding-bottom: 12em;
+}
+
+
+#contact-container h1 {
+    font-family: 'Cookie', Georgia, Serif;
+    font-size: 26pt;
+    color: #dd0505;
+    font-weight: normal;
+}
+
+.wpcf7-mail-sent-ok {
+    border: 0;
+}
+
+#work-container {
+    background-color: #f2f2f2;
+    padding-bottom: 2em;
+}
+
+#image-viewer {
+    width: 720px;
+    height: 450px;
+}
+
+.slide-caption {
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(0, 0, 0) transparent;
+    /* RGBa with 0.6 opacity */
+    background: rgba(0, 0, 0, 0.6);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+    font-size: 12pt;
+    color: white;
+    padding: 1em;
+    position: absolute;
+    bottom: 0;
+    width: 688px;
+}
+
+.slide-image {
+    width: 720px;
+    height: 450px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    position: relative;
+}
+
+.image-set {
+    width: 720px;
+    height: 450px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: auto;
+    background-color: #FFFFFF;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.slide-thumb {
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 144px;
+    height: 144px;
+    float: left;
+    margin-right: 1em;
+    background-size: cover;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    margin-bottom: 0.5em;
+}
+
+#rua-slider {
+    width: 720px;
+    height: 450px;
+    margin: auto;
+    position: relative;
+    float: left;
+}
+
+#slide-right {
+    position: absolute;
+    display: block;
+    right: -2px;
+    top: 213px;
+    border-right: 0px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+#slide-left {
+    position: absolute;
+    display: block;
+    left: -2px;
+    top: 213px;
+    border-left: 0px;
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.slide-nav {
+    padding: 8px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    background: rgb(255, 255, 255) transparent;
+    background: rgba(255, 255, 255, 0.6);
+    filter:progid:DXImageTransform.Microsoft.gradient(
+      startColorstr=#FFFFFFAA, endColorstr=#FFFFFFAA
+      );
+    -ms-filter: "filter:progid:DXmageTransform.Microsoft.gradient(
+      startColorstr=#FFFFFFAA, endColorstr=#FFFFFFAA)";
+}
+
+#slide-container {
+    width: 192px;
+    height: 495px;
+    margin: auto;
+    margin-bottom: .5em;
+    float: right;
+}
+
+.top-nav-link {
+    background-color: transparent;
+}
+
+.slide-nav:hover, .slide-nav:active, .slide-nav:visited, .slide-nav {
+    text-decoration: none;
+    color: #dd0505;
+}

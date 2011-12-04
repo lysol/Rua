@@ -67,7 +67,7 @@ get_header(); ?>
 
         <p>
             <span class="body-bigger">I'm the sort of person who needs</span>
-            to always bee learning a new skill. Apart from graphic design I'm
+            to always be learning a new skill. Apart from graphic design I'm
             teaching myself to play ukelele.
         </p>
         </section>

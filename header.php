@@ -14,6 +14,11 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="description" content="<?php bloginfo('description') ?>" />
 <title><?php bloginfo('name'); ?> | <?php bloginfo('description') ?></title>
+<!--[if lt IE 9]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+<![endif]-->
+<link rel="shortcut icon" href="<?php bloginfo('template_directory') ?>/favicon.ico" />
+<link rel="icon" type="image/x-icon" href="<?php bloginfo('template_directory') ?>/favicon.ico" />
 <link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/bootstrap.css" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />

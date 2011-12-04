@@ -109,7 +109,6 @@ $.fn.ruaSlider = function (options) {
             var imgSrc = image.attr('src');
             iIndex++;
             if (firstImage) {
-                console.log('first');
                 var slide = $('<a style="background-image: url(\'' + imgSrc + '\');" class="slide-thumb" href="#" id="slide-' + dIndex + '">&nbsp;</a>');
                 slide.attr('title', setTitle);
                 slide.css('text-decoration', 'none');
@@ -117,7 +116,6 @@ $.fn.ruaSlider = function (options) {
                 slideContainer.append(slide);
                 firstImage = false;
             } else {
-                console.log('slide');
                 var theSlide = $('<div class="slide-image" style="display: ' + imgDisplay + '; background-image: url(\'' + imgSrc + '\');"></div>');
 
                 // Retrieve the caption from the image alt attribute.
